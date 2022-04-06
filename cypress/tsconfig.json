@@ -1,0 +1,9 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "types": ["cypress", "@testing-library/cypress", "mocha"],
+    "isolatedModules": false
+  },
+  "include": ["..node_modules/cypress", "./**/*.ts"]
+}

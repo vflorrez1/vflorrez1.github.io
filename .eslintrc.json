@@ -1,0 +1,88 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "plugin:cypress/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@typescript-eslint", "react-hooks", "prettier", "import", "cypress"],
+  "rules": {
+    "prettier/prettier": "error",
+    "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/no-explicit-any": "error",
+    "react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }],
+    "complexity": "error",
+    "default-case": "error",
+    "curly": "error",
+    "camelcase": "error",
+    "dot-notation": "error",
+    "react/function-component-definition": [
+      2,
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ],
+    "max-lines": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "no-console": "warn",
+    "no-eval": "error",
+    "import/prefer-default-export": "off",
+    "implicit-arrow-linebreak": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "import/first": "error",
+    "react/prop-types": "off",
+    "function-paren-newline": "off",
+    "no-shadow": "error",
+    "no-underscore-dangle": "off",
+    "no-unused-expressions": "error",
+    "no-case-declarations": "error",
+    "no-empty-pattern": "error",
+    "no-global-assign": "error",
+    "no-multi-spaces": "error",
+    "no-unused-vars": "error",
+    "no-var": "error",
+    "prefer-const": "error",
+    "arrow-body-style": "error",
+    "spaced-comment": "error",
+    "no-redeclare": "error",
+    "no-self-assign": "error",
+    // note you must disable the base rule as it can report incorrect errors
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "no-mixed-spaces-and-tabs": "error",
+    "no-this-before-super": "error",
+    "@typescript-eslint/explicit-function-return-type": [
+      "off",
+      {
+        "allowExpressions": true
+      }
+    ],
+    "no-undef": "error",
+    "import/extensions": [
+      "off",
+      "ignorePackages",
+      {
+        "ts": "never",
+        "tsx": "never",
+        "test.ts": "never",
+        "test.tsx": "never"
+      }
+    ]
+  }
+}
