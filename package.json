@@ -1,5 +1,5 @@
 {
-  "homepage": "http://vflorrez1.github.io",
+  "homepage": "https://vflorrez1.github.io/vflorrez1.github.io",
   "name": "vics-page",
   "version": "0.1.0",
   "private": true,
@@ -29,7 +29,7 @@
     "cypress": "npx cypress open-ct",
     "lint": "eslint .",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -d build",
     "lint:fix": "eslint --fix",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
   },
