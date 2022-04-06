@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/vflorrez1.github.io/static/css/main.35e9082e.css",
+    "main.js": "/vflorrez1.github.io/static/js/main.2d30663c.js",
+    "static/js/787.a72766e0.chunk.js": "/vflorrez1.github.io/static/js/787.a72766e0.chunk.js",
+    "index.html": "/vflorrez1.github.io/index.html",
+    "main.35e9082e.css.map": "/vflorrez1.github.io/static/css/main.35e9082e.css.map",
+    "main.2d30663c.js.map": "/vflorrez1.github.io/static/js/main.2d30663c.js.map",
+    "787.a72766e0.chunk.js.map": "/vflorrez1.github.io/static/js/787.a72766e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35e9082e.css",
+    "static/js/main.2d30663c.js"
+  ]
+}
